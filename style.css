@@ -1,0 +1,77 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  /* width: 100vw;
+    height: 100vh; */
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  width: 80%;
+  height: 700px;
+  background-color: rgb(198, 187, 208);
+  gap: 5px;
+  padding: 10px;
+}
+.container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  width: 80%;
+  height: 700px;
+  background-color: rgb(198, 190, 206);
+  gap: 5px;
+  padding: 10px;
+}
+.parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(150, 135, 164, 0);
+  width: 80%;
+  height: 600px;
+  gap: 10px;
+}
+.container > text {
+  align-self: self-start;
+}
+
+.right {
+  background-image: url("image/pngtree-tiger-walking-wildlife-scene-transparent-background-png-image_7088126.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 500px;
+  background-color: rgb(255, 255, 255);
+}
+.left {
+  background-image: url("image/Mouse-Animal-PNG-Clipart.png");
+  background-position: center center;
+  width: 50%;
+  height: 500px;
+  background-color: rgb(255, 255, 255);
+}
+.right2 {
+  background-image: url("image/horse-3d-animal-png-10.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 500px;
+  background-color: rgb(255, 255, 255);
+}
+.left2{
+  background-image: url("image/animals-camel-transparent-png-stickpng-37.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 50%;
+  height: 500px;
+  background-color: rgb(255, 255, 255);
+}
